@@ -12,17 +12,17 @@ public class BlockInit {
 	public static final List<Block> BLOCKS = new ArrayList<Block>();
 	
 	//Ore
-	public static final Block AMETHYST_ORE = new BlockBase("amethyst_ore", Material.ROCK);
-	public static final Block JADE_ORE = new BlockBase("jade_ore", Material.ROCK);
-	public static final Block COPPER_ORE = new BlockBase("copper_ore", Material.ROCK);
-	public static final Block TIN_ORE = new BlockBase("tin_ore", Material.ROCK);
+	public static final Block AMETHYST_ORE = new BlockBase("amethyst_ore", Material.ROCK, "pickaxe", 3);
+	public static final Block JADE_ORE = new BlockBase("jade_ore", Material.ROCK, "pickaxe", 3);
+	public static final Block COPPER_ORE = new BlockBase("copper_ore", Material.ROCK, "pickaxe", 1);
+	public static final Block TIN_ORE = new BlockBase("tin_ore", Material.ROCK, "pickaxe", 1);
 	
 	//Mineral Blocks
-	public static final Block AMETHYST_BLOCK;
-	public static final Block JADE_BLOCK;
-	public static final Block COPPER_BLOCK;
-	public static final Block TIN_BLOCK;
-	public static final Block BRONZE_BLOCK;
+	public static final Block AMETHYST_BLOCK = new BlockBase("amethyst_block", Material.ROCK, "pickaxe", 3);
+	public static final Block JADE_BLOCK = new BlockBase("jade_block", Material.ROCK, "pickaxe", 3);
+	public static final Block COPPER_BLOCK = new BlockBase("copper_block", Material.ROCK, "pickaxe", 1);
+	public static final Block TIN_BLOCK = new BlockBase("tin_block", Material.ROCK, "pickaxe", 1);
+	public static final Block BRONZE_BLOCK = new BlockBase("bronze_block", Material.ROCK, "pickaxe", 2);
 	
 	//Chests
 	public static final Block IRON_CHEST;
